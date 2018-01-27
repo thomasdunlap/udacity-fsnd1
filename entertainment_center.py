@@ -6,7 +6,11 @@ donnie_darko = media.Movie("Donnie Darko", "A troubled teenager is plagued by vi
                             "https://images-na.ssl-images-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
                             "https://www.youtube.com/watch?v=ZZyBaFYFySk")
 
+adventureland = media.Movie("Adventureland", "In the summer of 1987, a college graduate takes a 'nowhere' job at his local amusement park, only to find it's the perfect course to get him prepared for the real world.",
+                            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1NTYyMjA2N15BMl5BanBnXkFtZTcwNjU1OTA0Mg@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+                            "https://www.youtube.com/watch?v=gfPE_MEKipM")
+
 # Movie instances to convert to HTML elements
-movies = [donnie_darko]
+movies = [donnie_darko, adventureland]
 
 fresh_tomatoes.open_movies_page(movies)
